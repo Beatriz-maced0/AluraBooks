@@ -1,0 +1,20 @@
+
+:root{
+	--cor-de-fundo:#EBECEE;
+	--branco: #FFFFFF;
+	--laranja: #EB9800;
+	--azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+	--fonte-principal: "Poppins", sans-serif;
+	--azul-fonte:#002f52;
+	--fonte-secundaria: "Josefin sans", sans-serif;
+	--preto: #000000;
+	--cinza: #474646;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+

@@ -1,0 +1,74 @@
+.carrossel__titulo-venda{
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--laranja);
+	background-color: var(--branco);
+	text-align: center;
+	padding: 1em 0 0.5em 0;
+	text-transform: uppercase;
+
+}
+
+.descrição__autora{
+	font-weight: 700;
+	font-size: 16px;
+	color: var(--laranja);
+	padding: 0.5em 0;
+}
+
+.descrição__nome-autora{
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--azul-fonte);
+	margin: 0.5em 0;
+	text-align: left;
+}
+
+.descrição__texto-autora{
+	font-size:14px ;
+	text-align: left;
+	padding: 0.5em;
+	font-weight: 400;
+}
+
+.classificação{
+	color: var(--laranja);
+
+}
+
+@media screen and (min-width:  1728px){
+	.carrossel__container{
+		display: flex;
+		margin: 0 20vw 3em 20vw;
+		align-items: center;
+	}
+
+	.swiper-pagination{
+		margin: 1em 0;
+	}
+
+	.swiper{
+		width: 50%;
+	}
+
+	.descrição__autora{
+		font-size: 32px;
+	}
+
+	.descrição__texto-autora{
+		font-size: 16px;
+	}
+
+	.descrição{
+		margin-right: 2em;
+	}
+
+	.card{
+		width: 60%;
+		margin-left: 3em;
+	}
+
+	.carrossel__titulo-venda{
+		font-size: 28px;
+	}
+}
